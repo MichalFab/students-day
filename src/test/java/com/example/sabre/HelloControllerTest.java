@@ -19,7 +19,7 @@ public class HelloControllerTest {
 
     @Test
     public void hello() {
-        Assertions.assertThat(helloController.hello()).isEqualTo("Hello");
-        
+        Assertions.assertThat(helloController.hello()).isEqualTo("Hello2");
+
     }
 }
